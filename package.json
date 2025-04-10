@@ -1,0 +1,19 @@
+{
+  "name": "shri_ram_kulfi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "client": "npm start --prefix client",
+  "server": "npm start --prefix server",
+  "dev": "concurrently \"npm run server\" \"npm run client\""
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+  
+}
